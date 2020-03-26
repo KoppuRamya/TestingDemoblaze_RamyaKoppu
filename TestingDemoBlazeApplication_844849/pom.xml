@@ -3,5 +3,19 @@
   <groupId>TestingDemoBlazeApplication_844849</groupId>
   <artifactId>TestingDemoBlazeApplication_844849</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+<dependencies>
+<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>1.4</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/org.webjars.npm/cucumber-tag-expressions -->
+<dependency>
+    <groupId>org.webjars.npm</groupId>
+    <artifactId>cucumber-tag-expressions</artifactId>
+    <version>1.0.1</version>
+</dependency>
 
+</dependencies>
 </project>

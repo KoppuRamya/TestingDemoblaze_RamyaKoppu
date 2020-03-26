@@ -17,7 +17,7 @@ public class Placeorderpage
 	{
 		if(browser.equalsIgnoreCase("chrome"))//with ignoring whether lower or upper case opens chrome browser
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ramya\\Desktop\\TestingDemoBlazeApplication_844849\\src\\test\\resources\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ramya\\git\\TestingDemoblaze_RamyaKoppu\\TestingDemoBlazeApplication_844849\\src\\test\\resources\\Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if(browser.equalsIgnoreCase("Explorer"))//with ignoring whether lower or upper case opens Internet explorer browser

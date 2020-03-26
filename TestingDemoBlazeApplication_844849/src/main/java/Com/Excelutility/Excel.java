@@ -11,7 +11,7 @@ public class Excel
 {
 	public  String excel_username(int a) throws IOException {
 		  
-		  FileInputStream fil = new FileInputStream(new File("C:\\Users\\Ramya\\Desktop\\TestingDemoBlazeApplication_844849\\src\\test\\resources\\Testdata\\Book1.xlsx"));//to read the file from folder
+		  FileInputStream fil = new FileInputStream(new File("C:\\Users\\Ramya\\git\\TestingDemoblaze_RamyaKoppu\\TestingDemoBlazeApplication_844849\\src\\test\\resources\\Testdata\\Book1.xlsx"));//to read the file from folder
 		  XSSFWorkbook workbook = new XSSFWorkbook(fil);//Reading workbook form file
 		  XSSFSheet sheet=workbook.getSheet("Sheet1");//reading sheet from workbook
 			  String un=sheet.getRow(a).getCell(0).getStringCellValue();//Reading username from sheet1
@@ -21,7 +21,7 @@ public class Excel
 }
 	public  String excel_password(int b) throws IOException {
 		  
-		  FileInputStream fil = new FileInputStream(new File("C:\\Users\\Ramya\\Desktop\\TestingDemoBlazeApplication_844849\\src\\test\\resources\\Testdata\\Book1.xlsx"));//to read file from folder
+		  FileInputStream fil = new FileInputStream(new File("C:\\Users\\Ramya\\git\\TestingDemoblaze_RamyaKoppu\\TestingDemoBlazeApplication_844849\\src\\test\\resources\\Testdata\\Book1.xlsx"));//to read file from folder
 		  XSSFWorkbook workbook = new XSSFWorkbook(fil);//reading workbook from file
 		  XSSFSheet sheet=workbook.getSheet("Sheet1");//reading sheet from workbook
 		  String pwd=sheet.getRow(b).getCell(1).getStringCellValue();//resding user name from sheet1
