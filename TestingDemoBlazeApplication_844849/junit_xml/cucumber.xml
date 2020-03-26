@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="866.964256">
+<testcase classname="DemoBlaze Website" name="To check that the application showing error if invalid details are given and by using alert handling popup message is captured or not" time="252.68417">
+<system-out><![CDATA[Given the user launched the chromebrowser...................................passed
+When the user open the Demoblaze website....................................passed
+Then user clicks on login button............................................passed
+And user will enter the username password using excel.......................passed
+Then handling the popup message by using assert.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoBlaze Website" name="Login and logout" time="130.211646">
+<system-out><![CDATA[Given user launched the chromebrowser.......................................passed
+When the user opens Demoblazeapplication....................................passed
+Then user will click on the loginbutton.....................................passed
+Then user will enter credentials............................................passed
+Then user will logout.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoBlaze Website" name="Updating the cart with more than one product and printing the price in the console window" time="162.461763">
+<system-out><![CDATA[Given user launches the chromebrowser.......................................passed
+When the user opened the demoblaze website..................................passed
+Then user will add multiple products and will display price on console window.passed
+And user will tahe the screenshot of the addedproducts......................passed
+]]></system-out>
+</testcase>
+<testcase classname="DemoBlaze Website" name="Clicking on phones and adding to the cart and place he order." time="321.606677">
+<system-out><![CDATA[Given user launches ChromeBrowser...........................................passed
+When the user open demoBlaze................................................passed
+Then user will add the product and place the order..........................passed
+]]></system-out>
+</testcase>
+</testsuite>

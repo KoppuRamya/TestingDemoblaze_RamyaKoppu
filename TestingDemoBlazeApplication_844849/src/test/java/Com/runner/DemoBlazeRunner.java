@@ -13,10 +13,9 @@ import cucumber.api.junit.Cucumber;
 plugin = {"com.cucumber.listener.ExtentCucumberFormatter:reports/Extentreports/Extentreport.html","html:test-output","json:json_output/cucumber.json","junit:junit_xml/cucumber.xml"},
 tags= {"@tc01_demoblazeloginusingexcel,@tc02_demoblazeloginandlogout,@tc03_demoblazeupdatecart,@tc04_demoblazeplacetheorder"},
 monochrome=true,
-glue= {"steps"}
+glue= {"Com.Stepdefinition"}
 
 )
-
 public class DemoBlazeRunner {
 
 	@AfterClass
